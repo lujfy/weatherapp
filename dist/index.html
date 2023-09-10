@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+
+        <div class="logo">
+            <p>weather app</p>
+            <img height="40" src="./image/cat.png" alt="">
+        </div>
+
+        <div class="searchbar">
+            <input id="location" type="text" value="" placeholder="...">
+            <button id="searchbtn"  type="submit">
+                <img src="./image/map-search-outline.svg" alt="search">
+            </button>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="empty">
+            <h1>Wow , such empty !</h1>
+            <img height="300" src="./image/emoticon-cry-outline.svg" alt="">
+        </div>
+        <div class="main">
+            <h1 class="temp">16°C</h1>
+            <div class="time-city">
+                <h1 class="city">LonDon ,GB</h1>
+                <p class="time">10:09 - Monday, 9 Sep 11</p>
+            </div>
+            <div class="condition">
+                <img class="condition-img" src="./image/weather/clouds.png" alt="">
+                <p class="condition-text">cloudy</p>
+            </div>
+        </div>
+        <div class="stat">
+            <div class="tab">
+                <p>Humidity :</p>
+                <p class="humidity"></p>
+            </div>
+
+            <div class="tab">
+                <p>feel like :</p>
+                <p class="feel-like"></p>
+            </div>
+
+            <div class="tab">
+                <p>Wind speed :</p>
+                <p class="wind-speed"></p>
+            </div>
+
+            <div class="tab">
+                <p>Pressure :</p>
+                <p class="pressure"></p>
+            </div>
+
+            <div class="tab">
+                <p>Cloud Level :</p>
+                <p class="cloud-level"></p>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
